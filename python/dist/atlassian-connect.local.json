@@ -1,0 +1,21 @@
+{
+ "name": "Hello World",
+ "description": "Atlassian Connect app",
+ "key": "com.example.myapp",
+ "baseUrl": "https://<my-base-url>",
+ "vendor": {
+     "name": "Example, Inc.",
+     "url": "http://example.com"
+ },
+ "authentication": {
+     "type": "jwt"
+ },
+ "apiVersion": 1,
+ "lifecycle": {
+   "installed": "/app-installed-callback"
+  },
+  "scopes": [
+    "read",
+    "write"
+  ]
+}
